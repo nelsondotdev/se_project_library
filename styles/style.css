@@ -243,7 +243,7 @@
 
 .staff {
   padding: 100px 0 140px;
-  background-image: url(/images/staff_picks_background.jpg);
+  background-image: url("../images/staff_picks_background.jpg");
   background-position: center;
   background-size: cover;
 }
