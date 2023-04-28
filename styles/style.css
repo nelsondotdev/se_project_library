@@ -32,6 +32,7 @@
   column-gap: 20px;
   list-style-type: none;
   margin: 8px 0 0;
+  padding: 0;
 }
 
 .nav__link {
@@ -50,13 +51,17 @@
   line-height: 76px;
   font-weight: 500;
   margin: 0 0 32px;
+  position: absolute;
+  z-index: 2;
 }
 
 .header__description {
   max-width: 532px;
   font-size: 20px;
   line-height: 30px;
-  margin: 0;
+  margin: 185px 0 0;
+  position: absolute;
+  z-index: 2;
 }
 
 .header__image {
@@ -74,9 +79,11 @@
   width: 100%;
   display: flex;
   align-items: center;
-  padding: 40px 80px 0;
   justify-content: space-between;
   box-sizing: border-box;
+  padding-top: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .header__link {
@@ -238,6 +245,7 @@
   padding: 100px 0 140px;
   background-image: url(/images/staff_picks_background.jpg);
   background-position: center;
+  background-size: cover;
 }
 
 .staff__title {
@@ -405,7 +413,7 @@
 }
 
 .footer__columns {
-  height: 116px;
+  min-height: 116px;
   display: flex;
   justify-content: space-between;
 }
