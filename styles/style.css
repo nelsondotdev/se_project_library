@@ -51,7 +51,7 @@
   line-height: 76px;
   font-weight: 500;
   margin: 0 0 32px;
-  position: absolute;
+  position: relative;
   z-index: 2;
 }
 
@@ -59,8 +59,8 @@
   max-width: 532px;
   font-size: 20px;
   line-height: 30px;
-  margin: 185px 0 0;
-  position: absolute;
+  margin: 0;
+  position: relative;
   z-index: 2;
 }
 
@@ -74,16 +74,13 @@
 
 .header__footer {
   position: absolute;
-  left: 0;
+  left: 80px;
   bottom: 40px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
-  padding-top: 40px;
-  padding-left: 80px;
-  padding-right: 80px;
 }
 
 .header__link {
