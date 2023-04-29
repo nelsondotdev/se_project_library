@@ -74,11 +74,12 @@
 
 .header__footer {
   position: absolute;
-  left: 80px;
+  left: 0;
   bottom: 40px;
   width: 100%;
   display: flex;
   align-items: center;
+  padding: 40px 80px 0;
   justify-content: space-between;
   box-sizing: border-box;
 }
