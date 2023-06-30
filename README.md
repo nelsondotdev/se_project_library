@@ -11,4 +11,4 @@ The Practicum Library webpage is the first project in the Software Engineer prog
 
 ## Project page
 
-[Practicum Library](https://nsithlopez.github.io/se_project_library/)
+[Practicum Library](https://nelsondotdev.github.io/se_project_library/)
